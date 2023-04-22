@@ -1,3 +1,6 @@
+
+This is my first attemp with react. Is a Slot Machine simulator about the One Piece anime series 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
