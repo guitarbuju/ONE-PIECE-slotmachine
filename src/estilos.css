@@ -1,0 +1,121 @@
+.tarjeta{
+gap: 20px;
+padding: 5px;
+padding-top: 25px;
+border:2px solid white;
+transition:1s
+}
+img{
+  box-shadow: 1px 1px 4px  gray,1px 1px 7px gray ,1px 1px 15px  black;
+}
+
+.modulo{
+    padding:15px;
+    margin-top: 15px;
+    border:4px  white;
+    border-style: double;
+    height: 140px;
+    box-shadow: 1px 1px 3px  gray;
+
+}
+
+
+h2{margin-top: -10px;}
+
+.container{
+    display: flex;
+    gap: 20px;
+ 
+    
+}
+
+
+/* CSS */
+.button-13 {
+  margin-top: -10px;
+  background-color:orange;
+  border: 1px solid white;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  text-shadow: 1px 1px 2px black;
+  width: 100px;
+  transition:all  linear;
+
+}
+
+.button-13:hover {
+  background-color: orange;
+  color:white;
+  text-shadow: 1px 1px 5px  gray,1px 2px 5px black;
+  box-shadow: 1px 1px 5px  gray,1px 2px 5px black;
+  
+}
+
+.button-14 {
+  margin-top: 10px;
+  background-color:orange;
+  border: 1px solid white;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  text-shadow: 1px 1px 2px black;
+  width: 100px;
+}
+
+.button-14:hover {
+  background-color: orange;
+  color:white;
+  text-shadow: 1px 1px 2px  gray,1px 2px 4px black;
+  box-shadow: 1px 1px 2px  gray,1px 2px 4px black;;
+}
+@keyframes titila{
+  from {color: white;}
+  to {color: #ba4cb7; text-shadow:1px 1px 1px 2px gray}
+}
+
+.blink{
+  animation-name: titila;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes titila2{
+  from {font-size: 20px;}
+  to {color:#FFDE2E;font-size: 45px;}
+}
+
+.blink2{
+  animation-name: titila2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.cambia{color:'#FFDE2E'}
